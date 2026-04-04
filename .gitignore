@@ -1,0 +1,67 @@
+# ----------------------
+
+# Root
+
+# ----------------------
+
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# ----------------------
+
+# Backend (Node/Express)
+
+# ----------------------
+
+backend/node_modules/
+backend/.env
+
+# ----------------------
+
+# Frontend (React / Vite)
+
+# ----------------------
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Vite cache
+
+frontend/.vite
+
+# ----------------------
+
+# Build / Misc
+
+# ----------------------
+
+dist/
+build/
+.cache/
+
+# ----------------------
+
+# IDE / Editor
+
+# ----------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
